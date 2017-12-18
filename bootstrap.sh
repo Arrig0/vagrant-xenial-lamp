@@ -74,3 +74,7 @@ sudo apt install -y composer
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
 sudo npm install --global yarn
+
+# install ruby, sass
+sudo apt-get install ruby ruby-dev gem libxml2-dev libxslt-dev pkg-config make clang
+sudo gem install sass
