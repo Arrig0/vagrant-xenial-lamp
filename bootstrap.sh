@@ -78,3 +78,9 @@ sudo npm install --global yarn
 # install ruby, sass
 sudo apt-get install ruby ruby-dev gem libxml2-dev libxslt-dev pkg-config make clang
 sudo gem install sass
+
+# install libpng16
+sudo apt-get install libpng16-16 libpng16-dev libpng16-devtools libpng16-tools
+
+# install swapspace
+sudo apt install swapspace -y
